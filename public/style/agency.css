@@ -318,6 +318,9 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
+.service-heading.large {
+  font-size: 40px;
+}
 .portfolio-item {
   margin: 0 0 15px;
   right: 0;
