@@ -325,7 +325,13 @@ section h3.section-subheading {
 .portfolio-item {
   margin: 0 0 15px;
   right: 0;
+  opacity:0.5;
 }
+
+.portfolio-item.current {
+  opacity:1;
+}
+
 #portfolio .row {
   display: flex;
   flex-wrap: wrap;
@@ -789,4 +795,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #03A9F4;
+}
+
+.color-grayish { 
+	color:#b0b0b0;
 }
